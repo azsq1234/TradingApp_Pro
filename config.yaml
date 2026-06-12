@@ -1,8 +1,8 @@
 credentials:
   usernames:
     admin:
-      name: 'Admin User'
-      password: '123'  # كلمة سر تجريبية
+      name: 'bmw'
+      password: '213'  # كلمة سر تجريبية
     user1:
       name: 'Trading User'
       password: '456'
