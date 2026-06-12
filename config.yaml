@@ -1,12 +1,13 @@
 credentials:
   usernames:
     admin:
-      name: 'bmw'
-      password: '213'  # كلمة سر تجريبية
-    user1:
-      name: 'Trading User'
-      password: '456'
+      email: admin@example.com
+      name: Admin
+      password: '123'
 cookie:
+  name: some_cookie_name
+  key: some_signature_key
   expiry_days: 30
-  key: 'some_random_key'
-  name: 'auth_cookie'
+preauthorized:
+  emails:
+    - admin@example.com
